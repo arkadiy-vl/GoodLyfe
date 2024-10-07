@@ -1,0 +1,22 @@
+doctype html
+html
+    head
+        block head
+            include ../blocks/head
+
+    body.page
+
+        header.page__header
+            div.page__header-wrapper
+                block page__header
+                    include ../blocks/header
+
+        main.page__main.main
+            div.main__wrapper
+                block page__main
+                    include ../blocks/main
+
+        footer.page__footer
+            div.page__footer-wrapper
+                block page__footer
+                    include ../blocks/footer

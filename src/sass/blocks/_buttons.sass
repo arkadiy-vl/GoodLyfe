@@ -1,0 +1,48 @@
+// @use '../base/_base' as b
+
+.btn,
+.btn-outline
+    display: inline-flex
+    box-sizing: border-box
+    min-width: remy(237)
+    height: remy(68)
+    border: solid remy(2) var(--accent)
+    border-radius: remy(40)
+
+    font-family: inherit
+    font-weight: 600
+    font-size: remy(16)
+    line-height: 1.75
+    letter-spacing: remy(0.75)
+    justify-content: center
+    align-items: center
+    white-space: nowrap
+
+    background-color: var(--accent)
+    color: #fff
+
+    cursor: pointer
+    transition: 0.3s
+
+    &:hover
+        background-color: var(--accent-hover)
+
+    &:focus
+        background-color: var(--accent)
+        outline: solid 8px var(--accent-subt)
+
+.btn-outline
+    background-color: var(--bg-color)
+    border-color: var(--accent)
+    color: var(--accent)
+
+    &:hover
+        background-color: var(--bg-color)
+        border-color: var(--accent-hover)
+        color: var(--accent-hover)
+
+    &:focus
+        background-color: var(--bg-color)
+        border-color: var(--accent)
+        color: var(--accent)
+        outline: solid 8px var(--accent-subt)

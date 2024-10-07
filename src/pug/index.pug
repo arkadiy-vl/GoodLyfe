@@ -1,0 +1,26 @@
+extends layout/app
+
+//- block page__header
+//-     include blocks/header
+
+//- block page__main
+//-     include blocks/main
+//-
+    h1.h1 Заголовок страницы
+    p.text Произвольный рыбный текст Произвольный рыбный текст Произвольный рыбный текст Произвольный рыбный текст Произвольный рыбный текст
+    button.btn Button
+    button.btn-outline Button
+    a.btn(href='#') Button
+    a.btn-outline(href='#') Button
+    input.btn(type='submit' value='Button')
+    input.btn-outline(type="submit" value='Button')
+    svg.icon
+        use(xlink:href='./img/icons/sprites/brands.svg#instagram')
+    svg.icon.icon--facebook
+        use(xlink:href='./img/icons/sprites/brands.svg#facebook')
+    svg.icon
+        use(xlink:href='./img/icons/sprites/brands.svg#youtube')
+
+
+//- block page__footer
+//-     include blocks/footer
